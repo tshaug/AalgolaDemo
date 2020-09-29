@@ -1,0 +1,9 @@
+
+AalgolaProjectInformation(
+	“aalgola_demo”,
+	“AalgolaDemo”,
+	description: “This project is a simple demo of Aalgola features”,
+	uri: “//mathema.de/aalgola_demo/”,
+	main_class: “//mathema.de/aalgola_demo/AalgolaDemo”,
+	type: AALGOLA
+)

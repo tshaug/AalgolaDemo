@@ -1,0 +1,33 @@
+namespace //mathema.de/aalgola_demo/
+
+⟦program⟧
+object AalgolaDemo ⁌
+	Hier ist Platz für die Dokumentation für das, was das Programm macht.
+⁍ is
+
+	⟦override⟧
+	method run() → () ⁌
+		Hierhin kommt die Dokumentation der Methode.
+
+		Wenn leer, wird die Dokumentation der überschriebenen Methode genutzt.
+	 ⁍ is
+
+		¶ a end of line comment
+		¶ Zahlen führen aktuell zu Kompilierfehlern,z.B Folgende Anweisung:
+		 ¶ natuerlicheZahl : ℕ ← 1
+		 
+		 ¶ A initial (!) string assignment
+		 testString :← "this is a test"
+
+		 ¶ a reassignment
+		 testString ← "new value"
+		 
+		debugWriteLine(“Simple debug message: ”)
+		debugWriteLine(testString)
+
+		debugWriteLine()
+
+		¶ …
+	end method
+
+end object
