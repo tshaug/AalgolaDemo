@@ -13,21 +13,19 @@ object AalgolaDemo ⁌
 	 ⁍ is
 
 		¶ a end of line comment
-		¶ Zahlen führen aktuell zu Kompilierfehlern,z.B Folgende Anweisung:
-		 ¶ natuerlicheZahl : ℕ ← 1
 		 
 		 ¶ A initial (!) string assignment
-		 testString :← "this is a test"
-
+		 testString : 𝕊 ← "this is a test"
+		 zahl : ℕ₃₂ ← 5
+		
 		 ¶ a reassignment
-		 testString ← "new value"
+		 testString ← "Infoveranstaltung!"
 		 
-		debugWriteLine(“Simple debug message: ”)
+		debugWrite(“Hallo ”)
 		debugWriteLine(testString)
-
+		debugWrite(zahl)
 		debugWriteLine()
 
-		¶ …
 	end method
 
 end object

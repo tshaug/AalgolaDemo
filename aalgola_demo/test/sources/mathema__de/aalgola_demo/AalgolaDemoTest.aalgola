@@ -1,9 +1,0 @@
-namespace //mathema.de/aalgola_demo/
-
-test AalgolaDemoTest is
-
-	test “Prüft die Funktionstüchtigkeit von Tests” is
-		assert 1 ≠ 2
-	end
-
-end
